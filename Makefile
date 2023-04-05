@@ -22,4 +22,4 @@ pwnkit.so: pwnkit.c
 
 .PHONY: dry-run
 dry-run:
-    make -C dry-run
+    make -C dry-run clean
